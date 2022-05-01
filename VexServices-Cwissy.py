@@ -22,12 +22,13 @@ def color(str, color):
 def align(str):
     lines = str.splitlines( )
     greatest = []
-    for i in lines:  
+    for i in lines:
         greatest.append(len(i))
 
     for i in lines:
         length = round(int(greatest[-1])/2)
         print(f"{' '*round(get_terminal_size().columns/2-length)}{i}")
+
 
 class printing():
 
@@ -41,16 +42,16 @@ class printing():
         text = f"""{Fore.LIGHTBLUE_EX}
  ██████╗██╗    ██╗██╗███████╗███████╗██╗   ██╗
 ██╔════╝██║    ██║██║██╔════╝██╔════╝╚██╗ ██╔╝
-██║     ██║ █╗ ██║██║███████╗███████╗ ╚████╔╝ 
-██║     ██║███╗██║██║╚════██║╚════██║  ╚██╔╝  
-╚██████╗╚███╔███╔╝██║███████║███████║   ██║   
- ╚═════╝ ╚══╝╚══╝ ╚═╝╚══════╝╚══════╝   ╚═╝   
-BY USING THIS BOT, YOU AGREE TO THE TERMS OF SERVICE THAT YOU WILL 
-NOT USE ANY COPY OF THIS. 
+██║     ██║ █╗ ██║██║███████╗███████╗ ╚████╔╝
+██║     ██║███╗██║██║╚════██║╚════██║  ╚██╔╝
+╚██████╗╚███╔███╔╝██║███████║███████║   ██║
+ ╚═════╝ ╚══╝╚══╝ ╚═╝╚══════╝╚══════╝   ╚═╝
+BY USING THIS BOT, YOU AGREE TO THE TERMS OF SERVICE THAT YOU WILL
+NOT USE ANY COPY OF THIS.
 
-ANY OTHER USE WITHOUT AUTHORIZATION MAY GET YOU IN PROBLEMS, 
-INCLUDING GETTING SUED BY VEX SERVICES-https://discord.gg/y9JCRYWvE4.                                          
-                                              
+ANY OTHER USE WITHOUT AUTHORIZATION MAY GET YOU IN PROBLEMS,
+INCLUDING GETTING SUED BY VEX SERVICES-https://discord.gg/y9JCRYWvE4.
+
 """
         text = text.replace('▪', f'{Fore.GREEN}▪{Fore.LIGHTBLUE_EX}')
         text = text.replace('•', f'{Fore.GREEN}•{Fore.LIGHTBLUE_EX}')
@@ -117,21 +118,18 @@ INCLUDING GETTING SUED BY VEX SERVICES-https://discord.gg/y9JCRYWvE4.
         align(f"\t\t\t\t{color('>', 'green')} {Fore.LIGHTGREEN_EX}Github: {Fore.LIGHTBLUE_EX} https://github.com/cwissyy {color('<', 'green')}")
         printing.options()
 
+## iliya was here < :)
+
+option = webdriver.ChromeOptions()
+option.add_experimental_option('excludeSwitches', ['enable-logging'])
+service = Service('\\chromedriver.exe')
+driver = webdriver.Chrome(options=option)
+
 def start(video, botChoice):
 
-    option = webdriver.ChromeOptions()
-    option.add_experimental_option('excludeSwitches', ['enable-logging'])
-    
-    try:
-        service = Service('Enter ur chromedriver path here. It has to include the chromedriver exe file')
-        driver = webdriver.Chrome(service=service, options=option)
-    except Exception as DriverError:
-        print(f"{color('>', 'red')} {Fore.LIGHTRED_EX}Error: {DriverError}")
-        input(f"{color('>', 'red')} {Fore.LIGHTRED_EX}Press Enter to Exit")
-        exit()
 
     driver.get("https://zefoy.com")
-    
+
     if driver.title == "zefoy.com | 502: Bad gateway":
             print(f"{color('>', 'red')} Zefoy Is Down... Attempting To Fix.\n")
             while driver.title == "zefoy.com | 502: Bad gateway":
@@ -142,7 +140,7 @@ def start(video, botChoice):
                     break
     else:
         print(f"\n{color('>', 'green')} Zefoy Is Up!\n")
-    
+
     captchaCheck = input(f"{color('>>>', 'green')} Type \"y\" Once You Finished The Captcha: {Fore.LIGHTBLUE_EX}")
     captchaFinish = False
 
@@ -174,7 +172,7 @@ def start(video, botChoice):
             second2 += 1
             if cooldown[second2] == "s":
                 break
-        
+
         #Returning Minutes & Second Added
         return (int(cooldown[minute1:minute2])*60) + int(cooldown[second1:second2])
 
@@ -342,7 +340,7 @@ def start(video, botChoice):
                         pass
                 else:
                     pass
-                
+
                 amount +=1
                 cooldownList.sort()
 
