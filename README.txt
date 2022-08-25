@@ -17,3 +17,8 @@
 
 
 - need help or having problems ? join our server ! : https://discord.gg/9G3m78jZSY
+
+
+`Helpers:`
+
+*stan#0633, Onmi#9374, crazycwissy (i wuv bee)#1756*
