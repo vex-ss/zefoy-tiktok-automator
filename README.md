@@ -14,6 +14,7 @@
 - in The main.py file, put the file location for the chromewebdriver.exe with double back slash: // ( PATH LOCATED IN LINE #121 ) should say "//chromedriver.exe"
 - run the main.py botter and then type the tiktok video URL and solve the captcha on Zefoy and then type "y" and the bot will check captcha then it will start.
 *Tip: IF IT SAYS CAPTCHA NOT SOLVED WHEN YOU TYPE Y DO IT AGAIN ( and it should work ). *
+-----------------------------------------------------------
 
 
 - need help or having problems ? join our server ! : https://discord.gg/9G3m78jZSY
