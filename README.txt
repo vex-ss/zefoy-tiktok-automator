@@ -1,42 +1,19 @@
-██╗░░░██╗███████╗██╗░░██╗  ░██████╗███████╗██████╗░██╗░░░██╗██╗░█████╗░███████╗░██████╗
-██║░░░██║██╔════╝╚██╗██╔╝  ██╔════╝██╔════╝██╔══██╗██║░░░██║██║██╔══██╗██╔════╝██╔════╝
-╚██╗░██╔╝█████╗░░░╚███╔╝░  ╚█████╗░█████╗░░██████╔╝╚██╗░██╔╝██║██║░░╚═╝█████╗░░╚█████╗░
-░╚████╔╝░██╔══╝░░░██╔██╗░  ░╚═══██╗██╔══╝░░██╔══██╗░╚████╔╝░██║██║░░██╗██╔══╝░░░╚═══██╗
-░░╚██╔╝░░███████╗██╔╝╚██╗  ██████╔╝███████╗██║░░██║░░╚██╔╝░░██║╚█████╔╝███████╗██████╔╝
-░░░╚═╝░░░╚══════╝╚═╝░░╚═╝  ╚═════╝░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚══════╝╚═════╝░
-Thank you for using our tiktok bottter! Made By: cwissy#2501 and StanTheMan#0001
-[-------------------------------------------------------------------------------------------------------------------------]
-**Important:**
-
-This is against TIKTOKS TOS we are not responsible for anything that happens to your account.
-
-Tested with Python (latest Version)
-[-------------------------------------------------------------------------------------------------------------------------]
-**STEPS:**
-
-Step 1: Download Python And Chrome Web Driver.
-
-Step 2: Start the setup.bat file (this will install all the requirements)
-
-Step 3: In The VexServices-cwissy.py file, Put The File Location For The Chrome Web Driver EXE With Double Back Slash (PATH LOCATED IN LINE #121). Make sure to erase the "Enter ur chromedriver path here. It has to include the chromedriver exe file"
-
-Step 4: Run the cwissy botter and then type the TikTok Video URL and solve the captcha on Zefoy and then type "y" and the bot will check your captcha then it Will Start.
-
-**TIP:** IF IT SAYS CAPTCHA NOT SOLVED WHEN YOU TYPE Y DO IT AGAIN (and it should work).  
-[-------------------------------------------------------------------------------------------------------------------------]
-**LINKS:** 
-
-ChromeDriver: https://chromedriver.chromium.org/downloads  |  Download the Version that's the same version as your chrome
-
-Python: https://www.python.org/downloads/release/python-362/  |  Recommended Version 3.10.4 or (Latest Version)
-
-[-------------------------------------------------------------------------------------------------------------------------]
-						THANK YOU SO MUCH FOR USING CWISSY BOT!
+`Zefoy TikTok Automator | Vex Services`
 
 
-IF YOU NEED ANY HELP WITH THIS OR YOUR STUPID JOIN OUR SERVER https://discord.gg/y9JCRYWvE4 or go to #┋ʜᴇʟᴘ and @SUPPORT
+*Need:*
+- python ( 3.9 or latest version https://www.python.org/downloads/ )
+- chromedriver.exe ( same version as your chrome )
+- visual studio code
+- knowledge ( brain )
+
+*Steps:*
+
+- download Python and chromewebdriver.exe ( https://chromedriver.chromium.org/downloads )
+- start the setup.bat file ( this installs the needed packages )
+- in The main.py file, put the file location for the chromewebdriver.exe with double back slash: // ( PATH LOCATED IN LINE #121 ) should say "//chromedriver.exe"
+- run the main.py botter and then type the tiktok video URL and solve the captcha on Zefoy and then type "y" and the bot will check captcha then it will start.
+*Tip: IF IT SAYS CAPTCHA NOT SOLVED WHEN YOU TYPE Y DO IT AGAIN ( and it should work ). *
 
 
-
-
-
+- need help or having problems ? join our server ! : https://discord.gg/9G3m78jZSY
