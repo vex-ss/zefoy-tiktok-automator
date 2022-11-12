@@ -16,4 +16,4 @@
 *FOR MORE INFORMATION PLEASE JOIN:* `https://discord.gg/9G3m78jZSY`
 
 `CONTRIBUTERS:`
-*stan#0633, ! cwissy#8896*
+*stan#0633, ! cwissy#8896, iliya#6913*
