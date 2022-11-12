@@ -1,4 +1,3 @@
-#TikTok Botter
 import time
 from colorama import Fore, init
 from selenium import webdriver
@@ -8,7 +7,7 @@ from os import system, get_terminal_size
 
 init()
 system("mode 800")
-system("title TikTok Botter -By cwissy#2501 and StanTheMan#0001")
+system("title Zefoy TikTok Automator | Vex Services")
 
 def color(str, color):
     if color.lower() == "green":
@@ -40,17 +39,14 @@ class printing():
 
     def text():
         text = f"""{Fore.LIGHTBLUE_EX}
- ██████╗██╗    ██╗██╗███████╗███████╗██╗   ██╗
-██╔════╝██║    ██║██║██╔════╝██╔════╝╚██╗ ██╔╝
-██║     ██║ █╗ ██║██║███████╗███████╗ ╚████╔╝
-██║     ██║███╗██║██║╚════██║╚════██║  ╚██╔╝
-╚██████╗╚███╔███╔╝██║███████║███████║   ██║
- ╚═════╝ ╚══╝╚══╝ ╚═╝╚══════╝╚══════╝   ╚═╝
-BY USING THIS BOT, YOU AGREE TO THE TERMS OF SERVICE THAT YOU WILL
-NOT USE ANY COPY OF THIS.
 
-ANY OTHER USE WITHOUT AUTHORIZATION MAY GET YOU IN PROBLEMS,
-INCLUDING GETTING SUED BY VEX SERVICES-https://discord.gg/y9JCRYWvE4.
+██╗░░░██╗███████╗██╗░░██╗
+██║░░░██║██╔════╝╚██╗██╔╝
+╚██╗░██╔╝█████╗░░░╚███╔╝░
+░╚████╔╝░██╔══╝░░░██╔██╗░
+░░╚██╔╝░░███████╗██╔╝╚██╗
+░░░╚═╝░░░╚══════╝╚═╝░░╚═╝
+     .gg/9G3m78jZSY
 
 """
         text = text.replace('▪', f'{Fore.GREEN}▪{Fore.LIGHTBLUE_EX}')
@@ -61,16 +57,13 @@ INCLUDING GETTING SUED BY VEX SERVICES-https://discord.gg/y9JCRYWvE4.
 
     def info():
         align(f"""{Fore.WHITE}
-╔═══════════════════════════════════════════════════════════════════════════════════╗
-║                                                                                   ║
-║                                                                                                                                       ║
-║                                                                                                                                       ║
-║          {color(">", "green")} Made By: {Fore.LIGHTBLUE_EX}cwissy#2501 and StanTheMan#0001{Fore.WHITE}
-║          {color(">", "green")} Discord: {Fore.LIGHTBLUE_EX}https://discord.gg/y9JCRYWvE4{Fore.WHITE}                                              ║
-║          {color(">", "green")} Github: {Fore.LIGHTBLUE_EX}https://github.com/cwissyy and https://github.com/VexServices000{Fore.WHITE}                          ║
-║          {color(">", "green")} Download Chrome Driver: {Fore.LIGHTBLUE_EX}https://chromedriver.chromium.org/downloads{Fore.WHITE}  ║
-║                                                                                   ║
-╚═══════════════════════════════════════════════════════════════════════════════════╝
+╔═════════════════════════════════════════╗
+║                                         ║
+║ {color(">", "green")} Developer: {Fore.LIGHTBLUE_EX}stan#0633{Fore.WHITE}
+║ {color(">", "green")} Discord: {Fore.LIGHTBLUE_EX}https://discord.gg/9G3m78jZSY{Fore.WHITE}
+║ {color(">", "green")} Github: {Fore.LIGHTBLUE_EX}https://github.com/vex-ss{Fore.WHITE}                                                                             
+║                                         ║
+╚═════════════════════════════════════════╝
 """)
 
     def options():
@@ -114,15 +107,15 @@ INCLUDING GETTING SUED BY VEX SERVICES-https://discord.gg/y9JCRYWvE4.
     def refresh():
         system("cls")
         printing.text()
-        align(f"\n\n\t\t\t{color('>', 'green')}Made By: {Fore.LIGHTBLUE_EX}cwissy#2501 and StanTheMan#0001 {color('<', 'green')}")
-        align(f"\t\t\t\t{color('>', 'green')} {Fore.LIGHTGREEN_EX}Github: {Fore.LIGHTBLUE_EX} https://github.com/cwissyy {color('<', 'green')}")
+        align(f"\n\n\t\t\t{color('>', 'green')}Developer: {Fore.LIGHTBLUE_EX}stan#0633{color('<', 'green')}")
+        align(f"\t\t\t\t{color('>', 'green')}{Fore.LIGHTGREEN_EX}Github: {Fore.LIGHTBLUE_EX}https://github.com/vex-ss{color('<', 'green')}")
         printing.options()
 
 ## iliya was here < :)
 
 option = webdriver.ChromeOptions()
 option.add_experimental_option('excludeSwitches', ['enable-logging'])
-service = Service('\\chromedriver.exe')
+service = Service('C:\\Users\\Stan\\Downloads\\zefoy-tiktok-automator-main\\chromedriver.exe')
 driver = webdriver.Chrome(options=option)
 
 def start(video, botChoice):
@@ -153,11 +146,11 @@ def start(video, botChoice):
                 print(f"\n{color('>', 'red')} You Didn't Finish The Captcha.")
                 input(f"{color('>>>', 'green')} Type \"y\" Once You Finished The Captcha: {Fore.LIGHTBLUE_EX}")
 
-    #Defining Find Cooldown
+    # Defining Find Cooldown
     def findCooldown(xpath):
         cooldown = driver.find_element(By.XPATH, xpath).text
 
-        #String Slicing For Minutes
+        # String Slicing For Minutes
         minute1 = cooldown.find("wait") + 4
         minute2 = minute1
         while True:
@@ -165,7 +158,7 @@ def start(video, botChoice):
             if cooldown[minute2] == "m":
                 break
 
-        #String Slicing For Seconds
+        # String Slicing For Seconds
         second1 = cooldown.find(")") + 1
         second2 = second1
         while True:
@@ -173,12 +166,12 @@ def start(video, botChoice):
             if cooldown[second2] == "s":
                 break
 
-        #Returning Minutes & Second Added
+        # Returning Minutes & Second Added
         return (int(cooldown[minute1:minute2])*60) + int(cooldown[second1:second2])
 
     print(f"\n{color('>', 'green')} Captcha is Finished, Starting...\n")
 
-    #Defining Xpaths
+    # Defining Xpaths
     home = "/html/body/nav/ul/li/a"
 
     views_enter = "/html/body/div[4]/div[1]/div[3]/div/div[4]/div/button"
@@ -205,7 +198,7 @@ def start(video, botChoice):
     follows_submit = "/html/body/div[4]/div[2]/div/div/div[1]/div/form/button"
     follows_cooldowns = "/html/body/div[4]/div[2]/div/div/h4"
 
-    #List of Xpaths for the Bot All
+    # List of Xpaths for the Bot All
     enterList = [
         [follows_enter, follows_input, follows_search, follows_submit, follows_cooldowns, "Follows"],
         [views_enter, views_input, views_search, views_submit, views_cooldowns, "Views"],
@@ -213,19 +206,19 @@ def start(video, botChoice):
         [shares_enter, shares_input, shares_search, shares_submit, shares_cooldowns, "Shares"],
     ]
 
-    #Defining Cool-downs
+    # Defining Cool-downs
     follows_cooldown = 0
     hearts_cooldown = 0
     views_cooldown = 0
     shares_cooldown = 0
 
-    #Defining Boolean
+    # Defining Boolean
     continue1 = False
     continue2 = False
 
     time.sleep(5)
 
-    #Defining Botting Function, Uses XPaths as parameters
+    # Defining Botting Function, Uses XPaths as parameters
     def bot(which, enter, input, search, submit, con1, con2, cooldownText, cooldownTime):
         amount = 0
         while captchaFinish:
