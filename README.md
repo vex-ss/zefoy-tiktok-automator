@@ -22,6 +22,10 @@
 
 ![image](https://user-images.githubusercontent.com/104242556/201496694-2920cf4d-b9e0-4d24-b98a-b8a0de9e7589.png)
 
+`COMMON ERROR:`
+- "Checking if the site connection is secure"
+| *To prevent this error make sure your VPN or Proxy is turned off. Also make sure to have a secure network.*
+
 *FOR MORE INFORMATION PLEASE JOIN:* `https://discord.gg/9G3m78jZSY`
 
 `CONTRIBUTERS:`
