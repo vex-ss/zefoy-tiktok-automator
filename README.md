@@ -27,6 +27,6 @@
 `COMMON ERRORS:`
 - "Checking if the site connection is secure"
 | *To prevent this error make sure your VPN or Proxy is turned off. Also make sure to have a secure network.*
-
-`CONTRIBUTERS:`
-stan_711
+- "[>] You Didn't Finish The Captcha.
+[>>>] Type "y" Once You Finished The Captcha: y
+|  *WORKING ON FIX*
