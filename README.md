@@ -1,7 +1,7 @@
 <h3>Zefoy TikTok Automator | Vex Services</h3>&nbsp;
 
-**PATCHED** WE ARE WORKING ON A FIX AND UPDATE TO MAKE IT WORK AND MAKE IT BETTER. THANK YOU!
-*FOR MORE INFORMATION PLEASE JOIN:* `https://discord.gg/9G3m78jZSY`
+<h2>**PATCHED** WE ARE WORKING ON A FIX AND UPDATE TO MAKE IT WORK AND MAKE IT BETTER. THANK YOU!
+*FOR MORE INFORMATION PLEASE JOIN:* `https://discord.gg/9G3m78jZSY`</h2>
 
 `REQUIREMENTS:`
 - python ( 3.9 or latest version: `https://www.python.org/downloads/` )
