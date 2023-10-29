@@ -1,5 +1,7 @@
 <h3>Zefoy TikTok Automator | Vex Services</h3>&nbsp;
 
+**PATCHED** WE ARE WORKING ON A FIX AND UPDATE TO MAKE IT WORK AND MAKE IT BETTER. THANK YOU!
+*FOR MORE INFORMATION PLEASE JOIN:* `https://discord.gg/9G3m78jZSY`
 
 `REQUIREMENTS:`
 - python ( 3.9 or latest version: `https://www.python.org/downloads/` )
@@ -26,7 +28,5 @@
 - "Checking if the site connection is secure"
 | *To prevent this error make sure your VPN or Proxy is turned off. Also make sure to have a secure network.*
 
-*FOR MORE INFORMATION PLEASE JOIN:* `https://discord.gg/9G3m78jZSY`
-
 `CONTRIBUTERS:`
-stan
+stan_711
